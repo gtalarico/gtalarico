@@ -59,7 +59,7 @@ projects = [
     },
     {
         "repo": "gtalarico/ironpython-stubs",
-        "website": "https://github.com/gtalarico/ironpython-stubs",
+        "website": "",
         "rtd": "",
         "name": "Iron Python Stubs",
         "status": "🟠",
@@ -143,9 +143,9 @@ for p in projects:
         f"<td>{status}</td>",
         f"<td>{type}</td>",
         "<td>\n\n",
-        "" if not p["rtd"] else f"\n![{name}](https://img.shields.io/readthedocs/{rtd}?style=flat-square)",
-        "" if not p["website"] else f"\n![{name}](https://img.shields.io/website?style=flat-square&url={url_encoded})",
-        "" if not p["repo"] else f"\n![GitHub Repo stars](https://img.shields.io/github/stars/{repo}?style=flat-square)",
+        "" if not p["rtd"] else f"\n[![{name}](https://img.shields.io/readthedocs/{rtd}?style=flat-square)](https://{rtd}.readthedocs.io)",
+        "" if not p["website"] else f"\n[![{name}](https://img.shields.io/website?style=flat-square&url={url_encoded})]({website})",
+        "" if not p["repo"] else f"\n[![GitHub Repo stars](https://img.shields.io/github/stars/{repo}?style=flat-square)](https://github.com/{repo})",
         "\n\n</td>"
     ]
 

@@ -74,25 +74,89 @@ My name is Gui Talarico
 
 ### Projects
 
+
 <table>
-  <tr><th>Name</th><th>Health</th><th>Type</th></tr>
-  <tr><td><a href="projects/pyairtable.md">pyAirtable</a></td><td>🟢</td><td>Library</td></tr>
-  <tr><td><a href="projects/aecworks.md">aec.works</a></td><td>🟢</td><td>Website</td></tr>
-  <tr><td><a href="projects/apidocs.md">ApiDocs.co</a></td><td>🟢</td><td>Website</td></tr>
-  <tr><td><a href="projects/apidocs-v2.md">ApiDocs.co</a></td><td>🟢</td><td>Website</td></tr>
-  <tr><td><a href="projects/revitapidocs.md">Revit Api Docs</a></td><td>🟢</td><td>Website</td></tr>
-  <tr><td><a href="projects/aecstartups.md">AecStartups</a></td><td>🟢</td><td>Website</td></tr>
-  <tr><td><a href="projects/vue-templates.md">Python Vue Template</a></td><td>🟠</td><td>DevTool</td></tr>
-  <tr><td><a href="projects/ironpystubs.md">Iron Python Stubs</a></td><td>🟠</td><td>DevTool</td></tr>
-  <tr><td><a href="projects/rpw.md">Revit Python Wrapper</a></td><td>🟠</td><td>Library</td></tr>
-  <tr><td><a href="projects/pm.md">pm</a></td><td>🔴</td><td>DevTool</td></tr>
-  <tr><td><a href="projects/pipes.md">pipes</a></td><td>🔴</td><td>DevTool</td></tr>
-  <tr><td><a href="projects/pyrevitplus.md">PyRevitPlus</a></td><td>🔴</td><td>Library</td></tr>
-  <tr><td><a href="projects/algorithms.md">Python Algorithms</a></td><td>⚪️</td><td>Learning</td></tr>
-  <tr><td><a href="projects/grid.md">Grid Solver</a></td><td>⚪️</td><td>Learning</td></tr>
-  <tr><td><a href="projects/three.md">Vue 3JS Rhino</a></td><td>⚪️</td><td>Learning</td></tr>
-  <tr><td><a href="projects/elastic.md">Elastic Search Analyser</a></td><td>⚪️</td><td>Learning</td></tr>
+ <tr>
+  <th>Name</th><th>Status</th><th>Type</th><th>Links</th>
+ </tr>
+<tr><td>pyAirtable</td><td>🟢</td><td>Library</td><td>
+
+![pyAirtable](https://img.shields.io/rtd/pyairtable?style=flat-square)![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/pyairtable?style=flat-square)
+
+</td></tr>
+<tr><td>aec.works</td><td>🟢</td><td>Website</td><td>
+
+![aec.works](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Faec.works)![GitHub Repo stars](https://img.shields.io/github/stars/aecworks/aecworks-web?style=flat-square)
+
+</td></tr>
+<tr><td>ApiDocs.co</td><td>🟢</td><td>Website</td><td>
+
+![ApiDocs.co](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fapidocs.co)
+
+</td></tr>
+<tr><td>Revit Api Docs</td><td>🟢</td><td>Website</td><td>
+
+![Revit Api Docs](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Frevitapidocs.com)
+
+</td></tr>
+<tr><td>AecStartups</td><td>🟢</td><td>Website</td><td>
+
+![AecStartups](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Faecstartups.com)![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/aec-startups?style=flat-square)
+
+</td></tr>
+<tr><td>Python Vue Template</td><td>🟠</td><td>DevTool</td><td>
+
+![Python Vue Template](https://img.shields.io/website?style=flat-square&url=projects%2Fvue-templates.md)![GitHub Repo stars](https://img.shields.io/github/stars/projects/vue-templates.md?style=flat-square)
+
+</td></tr>
+<tr><td>Iron Python Stubs</td><td>🟠</td><td>DevTool</td><td>
+
+![Iron Python Stubs](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fgithub.com%2Fgtalarico%2Fironpython-stubs)![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/ironpython-stubs?style=flat-square)
+
+</td></tr>
+<tr><td>Revit Python Wrapper</td><td>🟠</td><td>Library</td><td>
+
+![Revit Python Wrapper](https://img.shields.io/rtd/revitpythonwrapper?style=flat-square)![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/revitpythonwrapper?style=flat-square)
+
+</td></tr>
+<tr><td>pm</td><td>🔴</td><td>DevTool</td><td>
+
+![pm](https://img.shields.io/website?style=flat-square&url=projects%2Fpm.md)![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/pm?style=flat-square)
+
+</td></tr>
+<tr><td>pipes</td><td>🔴</td><td>DevTool</td><td>
+
+![pipes](https://img.shields.io/rtd/pipenv-pipes?style=flat-square)![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/pipenv-pipes?style=flat-square)
+
+</td></tr>
+<tr><td>PyRevitPlus</td><td>🔴</td><td>Library</td><td>
+
+![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/pyrevitplus?style=flat-square)
+
+</td></tr>
+<tr><td>Python Algorithms</td><td>⚪️</td><td>Learning</td><td>
+
+![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/python-algorithms?style=flat-square)
+
+</td></tr>
+<tr><td>Grid Solver</td><td>⚪️</td><td>Learning</td><td>
+
+![Grid Solver](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fgrid-solver.netlify.app)
+
+</td></tr>
+<tr><td>Vue 3JS Rhino</td><td>⚪️</td><td>Learning</td><td>
+
+![Vue 3JS Rhino](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fvue-threejs-rhino-viewer.netlify.app)![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/vue-threejs-rhino-demo?style=flat-square)
+
+</td></tr>
+<tr><td>Elastic Search Analyser</td><td>⚪️</td><td>Learning</td><td>
+
+![Elastic Search Analyser](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Finteractive-elastic.herokuapp.com)![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/interactive-elastic-analyzer?style=flat-square)
+
+</td></tr>
+
 </table>
+
 
 
 ----

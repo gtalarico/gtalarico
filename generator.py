@@ -1,0 +1,157 @@
+from urllib.parse import quote_plus
+from textwrap import dedent
+projects = [
+    {
+        "repo": "gtalarico/pyairtable",
+        "website": "",
+        "rtd": "pyairtable",
+        "name": "pyAirtable",
+        "status": "🟢",
+        "type": "Library",
+    },
+    {
+        "repo": "aecworks/aecworks-web",
+        "website": "https://aec.works",
+        "rtd": "",
+        "name": "aec.works",
+        "status": "🟢",
+        "type": "Website",
+    },
+    {
+        "repo": "",
+        "website": "https://apidocs.co",
+        "rtd": "",
+        "name": "ApiDocs.co",
+        "status": "🟢",
+        "type": "Website",
+    },
+    {
+        "repo": "",
+        "website": "https://revitapidocs.com",
+        "rtd": "",
+        "name": "Revit Api Docs",
+        "status": "🟢",
+        "type": "Website",
+    },
+    {
+        "repo": "gtalarico/aec-startups",
+        "website": "https://aecstartups.com",
+        "rtd": "",
+        "name": "AecStartups",
+        "status": "🟢",
+        "type": "Website",
+    },
+    {
+        "repo": "projects/vue-templates.md",
+        "website": "projects/vue-templates.md",
+        "rtd": "",
+        "name": "Python Vue Template",
+        "status": "🟠",
+        "type": "DevTool",
+    },
+    {
+        "repo": "gtalarico/ironpython-stubs",
+        "website": "https://github.com/gtalarico/ironpython-stubs",
+        "rtd": "",
+        "name": "Iron Python Stubs",
+        "status": "🟠",
+        "type": "DevTool",
+    },
+    {
+        "repo": "gtalarico/revitpythonwrapper",
+        "website": "",
+        "rtd": "revitpythonwrapper",
+        "name": "Revit Python Wrapper",
+        "status": "🟠",
+        "type": "Library",
+    },
+    {
+        "repo": "gtalarico/pm",
+        "website": "projects/pm.md",
+        "rtd": "",
+        "name": "pm",
+        "status": "🔴",
+        "type": "DevTool",
+    },
+    {
+        "repo": "gtalarico/pipenv-pipes",
+        "website": "",
+        "rtd": "pipenv-pipes",
+        "name": "pipes",
+        "status": "🔴",
+        "type": "DevTool",
+    },
+    {
+        "repo": "gtalarico/pyrevitplus",
+        "website": "",
+        "rtd": "",
+        "name": "PyRevitPlus",
+        "status": "🔴",
+        "type": "Library",
+    },
+    {
+        "repo": "gtalarico/python-algorithms",
+        "website": "",
+        "rtd": "",
+        "name": "Python Algorithms",
+        "status": "⚪️",
+        "type": "Learning",
+    },
+    {
+        "repo": "",
+        "website": "https://grid-solver.netlify.app",
+        "rtd": "",
+        "name": "Grid Solver",
+        "status": "⚪️",
+        "type": "Learning",
+    },
+    {
+        "repo": "gtalarico/vue-threejs-rhino-demo",
+        "website": "https://vue-threejs-rhino-viewer.netlify.app",
+        "rtd": "",
+        "name": "Vue 3JS Rhino",
+        "status": "⚪️",
+        "type": "Learning",
+    },
+    {
+        "repo": "gtalarico/interactive-elastic-analyzer",
+        "website": "https://interactive-elastic.herokuapp.com",
+        "rtd": "",
+        "name": "Elastic Search Analyser",
+        "status": "⚪️",
+        "type": "Learning",
+    }
+]
+
+headings = ["Name", "Status", "Type", "Links"]
+rows = []
+for p in projects:
+
+    repo, website, rtd, name, status, type = p["repo"], p["website"], p["rtd"], p["name"], p["status"], p["type"]
+
+    url_encoded = "" if not website else quote_plus(website)
+    row_tds = [
+        f"<td>{name}</td>",
+        f"<td>{status}</td>",
+        f"<td>{type}</td>",
+        "<td>\n\n",
+        "" if not p["rtd"] else f"![{name}](https://img.shields.io/rtd/{rtd}?style=flat-square)",
+        "" if not p["website"] else f"![{name}](https://img.shields.io/website?style=flat-square&url={url_encoded})",
+        "" if not p["repo"] else f"![GitHub Repo stars](https://img.shields.io/github/stars/{repo}?style=flat-square)",
+        "\n\n</td>"
+    ]
+
+    rows.append("".join(row_tds).format(**p))
+
+heading_tds = "".join([f"<th>{name}</th>" for name in headings])
+rows_tds = "".join([f"<tr>{name}</tr>\n" for name in rows])
+html = f"""
+<table>
+ <tr>
+  {heading_tds}
+ </tr>
+{rows_tds}
+</table>
+"""
+
+print(dedent(html))

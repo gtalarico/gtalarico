@@ -73,32 +73,25 @@ My name is Gui Talarico
 ----
 
 ### Projects
-<style>
-span {
-  font-size: 0.85rem;
-  background-color: #666;
-  color: white;
-  padding: 5px 8px;
-}
-</style>
 
 <table>
-  <tr><th>Name</th><th>Status</th><th>Type</th></tr>
-  <tr><td><a href="projects/pyairtable.md">pyAirtable</a></td><td>🟢</td><td><span>Library</span></td></tr>
-  <tr><td><a href="projects/aecworks.md">aec.works</a></td><td>🟢</td><td><span>Website</span></td></tr>
-  <tr><td><a href="projects/apidocs.md">ApiDocs.co</a></td><td>🟢</td><td><span>Website</span></td></tr>
-  <tr><td><a href="projects/revitapidocs.md">Revit Api Docs</a></td><td>🟢</td><td><span>Website</span></td></tr>
-  <tr><td><a href="projects/aecstartups.md">AecStartups</a></td><td>🟢</td><td><span>Website</span></td></tr>
-  <tr><td><a href="projects/django.md">Django Vue Template</a></td><td>🌕</td><td><span>DevTool</span></td></tr>
-  <tr><td><a href="projects/flaks.md">Flask Vue Template</a></td><td>🌕</td><td><span>DevTool</span></td></tr>
-  <tr><td><a href="projects/ironpystubs.md">Iron Python Stubs</a></td><td>🌕</td><td><span>DevTool</span></td></tr>
-  <tr><td><a href="projects/rpw.md">Revit Python Wrapper</a></td><td>🌕</td><td><span>Library</span></td></tr>
-  <tr><td><a href="projects/pm.md">pm</a></td><td>🔴</td><td><span>DevTool</span></td></tr>
-  <tr><td><a href="projects/pipes.md">pipes</a></td><td>🔴</td><td><span>DevTool</span></td></tr>
-  <tr><td><a href="projects/pyrevitplus.md">PyRevitPlus</a></td><td>🔴</td><td><span>Library</span></td></tr>
-  <tr><td><a href="projects/grid.md">Grid Solver</a></td><td>⚫️</td><td><span>Learning</span></td></tr>
-  <tr><td><a href="projects/grid.md">Rhino</a></td><td>⚫️</td><td><span>Learning</span></td></tr>
-  <tr><td><a href="projects/grid.md">Elastic Search Analyser</a></td><td>⚫️</td><td>Learning</td><span></span></tr>
+  <tr><th>Name</th><th>Health</th><th>Type</th></tr>
+  <tr><td><a href="projects/pyairtable.md">pyAirtable</a></td><td>🟢</td><td>Library</td></tr>
+  <tr><td><a href="projects/aecworks.md">aec.works</a></td><td>🟢</td><td>Website</td></tr>
+  <tr><td><a href="projects/apidocs.md">ApiDocs.co</a></td><td>🟢</td><td>Website</td></tr>
+  <tr><td><a href="projects/apidocs-v2.md">ApiDocs.co</a></td><td>🟢</td><td>Website</td></tr>
+  <tr><td><a href="projects/revitapidocs.md">Revit Api Docs</a></td><td>🟢</td><td>Website</td></tr>
+  <tr><td><a href="projects/aecstartups.md">AecStartups</a></td><td>🟢</td><td>Website</td></tr>
+  <tr><td><a href="projects/vue-templates.md">Python Vue Template</a></td><td>🟠</td><td>DevTool</td></tr>
+  <tr><td><a href="projects/ironpystubs.md">Iron Python Stubs</a></td><td>🟠</td><td>DevTool</td></tr>
+  <tr><td><a href="projects/rpw.md">Revit Python Wrapper</a></td><td>🟠</td><td>Library</td></tr>
+  <tr><td><a href="projects/pm.md">pm</a></td><td>🔴</td><td>DevTool</td></tr>
+  <tr><td><a href="projects/pipes.md">pipes</a></td><td>🔴</td><td>DevTool</td></tr>
+  <tr><td><a href="projects/pyrevitplus.md">PyRevitPlus</a></td><td>🔴</td><td>Library</td></tr>
+  <tr><td><a href="projects/algorithms.md">Python Algorithms</a></td><td>⚪️</td><td>Learning</td></tr>
+  <tr><td><a href="projects/grid.md">Grid Solver</a></td><td>⚪️</td><td>Learning</td></tr>
+  <tr><td><a href="projects/three.md">Vue 3JS Rhino</a></td><td>⚪️</td><td>Learning</td></tr>
+  <tr><td><a href="projects/elastic.md">Elastic Search Analyser</a></td><td>⚪️</td><td>Learning</td></tr>
 </table>
 
 
@@ -112,5 +105,7 @@ span {
 
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gtalarico&hide=html&hide_title=false&hide_border=false&layout=compact&langs_count=8&theme=default)
 
-</div>
 
+---
+
+![Counter](https://komarev.com/ghpvc/?username=gtalarico&style=flat-square&label=Profile%20Views)

@@ -54,6 +54,7 @@ My name is Gui Talarico
 ![GRPC](https://img.shields.io/badge/GRPC-4285F4.svg?&style=for-the-badge&logo=google&logoColor=white)
 
 ###### Some
+
 ![NodeJS](https://img.shields.io/badge/NODEJS-339933.svg?&style=for-the-badge&logo=node.js&logoColor=white)
 ![Java](https://img.shields.io/badge/JAVA-007396.svg?&style=for-the-badge&logo=java&logoColor=white)
 ![Golang](https://img.shields.io/badge/GOLANG-7fd5ea.svg?&style=for-the-badge&logo=go&logoColor=333333)
@@ -76,6 +77,7 @@ My name is Gui Talarico
 ### Dev Projects
 
 <!-- Paste Output of generator.pu -->
+
 
 <table>
  <tr>
@@ -187,6 +189,8 @@ My name is Gui Talarico
 </td></tr>
 
 </table>
+
+
 
 
 

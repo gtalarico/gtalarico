@@ -10,7 +10,7 @@ projects = [
         "type": "Library",
     },
     {
-        "repo": "aecworks/aecworks-web",
+        "repo": "aecworks/aec.works-web",
         "website": "https://aec.works",
         "rtd": "",
         "name": "aec.works",
@@ -27,7 +27,7 @@ projects = [
     },
     {
         "repo": "",
-        "website": "https://revitapidocs.com",
+        "website": "https://www.revitapidocs.com",
         "rtd": "",
         "name": "Revit Api Docs",
         "status": "🟢",
@@ -42,10 +42,18 @@ projects = [
         "type": "Website",
     },
     {
-        "repo": "projects/vue-templates.md",
-        "website": "projects/vue-templates.md",
+        "repo": "gtalarico/flask-vuejs-template",
+        "website": "",
         "rtd": "",
-        "name": "Python Vue Template",
+        "name": "Flask Vue JS Template",
+        "status": "🟠",
+        "type": "DevTool",
+    },
+    {
+        "repo": "gtalarico/django-vue-template",
+        "website": "",
+        "rtd": "",
+        "name": "Django Vue JS Template",
         "status": "🟠",
         "type": "DevTool",
     },
@@ -67,7 +75,7 @@ projects = [
     },
     {
         "repo": "gtalarico/pm",
-        "website": "projects/pm.md",
+        "website": "",
         "rtd": "",
         "name": "pm",
         "status": "🔴",
@@ -135,9 +143,9 @@ for p in projects:
         f"<td>{status}</td>",
         f"<td>{type}</td>",
         "<td>\n\n",
-        "" if not p["rtd"] else f"![{name}](https://img.shields.io/rtd/{rtd}?style=flat-square)",
-        "" if not p["website"] else f"![{name}](https://img.shields.io/website?style=flat-square&url={url_encoded})",
-        "" if not p["repo"] else f"![GitHub Repo stars](https://img.shields.io/github/stars/{repo}?style=flat-square)",
+        "" if not p["rtd"] else f"\n![{name}](https://img.shields.io/readthedocs/{rtd}?style=flat-square)",
+        "" if not p["website"] else f"\n![{name}](https://img.shields.io/website?style=flat-square&url={url_encoded})",
+        "" if not p["repo"] else f"\n![GitHub Repo stars](https://img.shields.io/github/stars/{repo}?style=flat-square)",
         "\n\n</td>"
     ]
 

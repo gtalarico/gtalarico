@@ -73,21 +73,32 @@ My name is Gui Talarico
 ----
 
 ### Projects
+<style>
+span {
+  font-size: 0.85rem;
+  background-color: #666;
+  color: white;
+  padding: 5px 8px;
+}
+</style>
 
 <table>
-  <tr><th>Name</th><th>Type</th><th>Status</th></tr>
-  <tr><td>pyAirtable</td><td>Library</td><td>🟢</td></tr>
-  <tr><td>aec.works</td><td>Website</td><td>🟢</td></tr>
-  <tr><td>ApiDocs.co</td><td>Website</td><td>🟢</td></tr>
-  <tr><td>Revit Api Docs</td><td>Website</td><td>🟢</td></tr>
-  <tr><td>AecStartups</td><td>Website</td><td>🟢</td></tr>
-  <tr><td>Django Vue Template</td><td>Dev Tool</td><td>🌕</td></tr>
-  <tr><td>Flask Vue Template</td><td>Dev Tool</td><td>🌕</td></tr>
-  <tr><td>Iron Python Stubs</td><td>Dev Tool</td><td>🌕</td></tr>
-  <tr><td>Revit Python Wrapper</td><td>Library</td><td>🌕</td></tr>
-  <tr><td>pm</td><td>Dev Tool</td><td>🔴</td></tr>
-  <tr><td>pipes</td><td>Dev Tool</td><td>🔴</td></tr>
-  <tr><td>PyRevitPlus</td><td>Library</td><td>🔴</td></tr>
+  <tr><th>Name</th><th>Status</th><th>Type</th></tr>
+  <tr><td><a href="projects/pyairtable.md">pyAirtable</a></td><td>🟢</td><td><span>Library</span></td></tr>
+  <tr><td><a href="projects/aecworks.md">aec.works</a></td><td>🟢</td><td><span>Website</span></td></tr>
+  <tr><td><a href="projects/apidocs.md">ApiDocs.co</a></td><td>🟢</td><td><span>Website</span></td></tr>
+  <tr><td><a href="projects/revitapidocs.md">Revit Api Docs</a></td><td>🟢</td><td><span>Website</span></td></tr>
+  <tr><td><a href="projects/aecstartups.md">AecStartups</a></td><td>🟢</td><td><span>Website</span></td></tr>
+  <tr><td><a href="projects/django.md">Django Vue Template</a></td><td>🌕</td><td><span>DevTool</span></td></tr>
+  <tr><td><a href="projects/flaks.md">Flask Vue Template</a></td><td>🌕</td><td><span>DevTool</span></td></tr>
+  <tr><td><a href="projects/ironpystubs.md">Iron Python Stubs</a></td><td>🌕</td><td><span>DevTool</span></td></tr>
+  <tr><td><a href="projects/rpw.md">Revit Python Wrapper</a></td><td>🌕</td><td><span>Library</span></td></tr>
+  <tr><td><a href="projects/pm.md">pm</a></td><td>🔴</td><td><span>DevTool</span></td></tr>
+  <tr><td><a href="projects/pipes.md">pipes</a></td><td>🔴</td><td><span>DevTool</span></td></tr>
+  <tr><td><a href="projects/pyrevitplus.md">PyRevitPlus</a></td><td>🔴</td><td><span>Library</span></td></tr>
+  <tr><td><a href="projects/grid.md">Grid Solver</a></td><td>⚫️</td><td><span>Learning</span></td></tr>
+  <tr><td><a href="projects/grid.md">Rhino</a></td><td>⚫️</td><td><span>Learning</span></td></tr>
+  <tr><td><a href="projects/grid.md">Elastic Search Analyser</a></td><td>⚫️</td><td>Learning</td><span></span></tr>
 </table>
 
 

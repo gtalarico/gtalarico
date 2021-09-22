@@ -202,9 +202,6 @@ My name is Gui Talarico
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=gtalarico&show_icons=true&theme=default&hide_border=false&locale=en)
 
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gtalarico&hide=html&hide_title=false&hide_border=false&layout=compact&langs_count=8&theme=default)
-
-
 ---
 
 ![Counter](https://komarev.com/ghpvc/?username=gtalarico&style=flat-square&label=Profile%20Views)

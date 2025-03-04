@@ -89,7 +89,7 @@ My name is Gui Talarico
 [![GitHub Repo stars](https://img.shields.io/github/stars/gtalarico/pyairtable?style=flat-square)](https://github.com/gtalarico/pyairtable)
 
 </td></tr>
-<tr><td>aec.works</td><td>🟢</td><td>Website</td><td>
+<tr><td>aec.works</td><td>🟢 (sold)</td><td>Website</td><td>
 
 
 [![aec.works](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Faec.works)](https://aec.works)
@@ -108,7 +108,7 @@ My name is Gui Talarico
 [![Revit Api Docs](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fwww.revitapidocs.com)](https://www.revitapidocs.com)
 
 </td></tr>
-<tr><td>AecStartups</td><td>🟢</td><td>Website</td><td>
+<tr><td>AecStartups</td><td>🔴 (sold)</td><td>Website</td><td>
 
 
 [![AecStartups](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Faecstartups.com)](https://aecstartups.com)
